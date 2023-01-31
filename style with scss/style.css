@@ -1,0 +1,151 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  margin: 0 auto;
+  padding: 0;
+  box-sizing: border-box;
+  background-image: url("/images/black-textured-paper-background.jpg");
+  height: 100%;
+}
+body #nav-br1 {
+  background-image: url("/images/web-gd714168bd_1920.jpg");
+  height: 70vh;
+}
+
+#nav-br1 h1 {
+  color: #ffd055;
+}
+#nav-br1 h1 span {
+  color: white;
+}
+#nav-br1 p {
+  color: white;
+}
+#nav-br1 svg {
+  color: #ffd055;
+}
+
+#about-me img {
+  width: 100%;
+  height: 100%;
+}
+#about-me article h4 {
+  color: #ffd055;
+}
+#about-me article h2 {
+  color: white;
+}
+#about-me article p {
+  color: white;
+}
+
+@media screen and (max-width: 768px) {
+  #about-me {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+}
+#expertise h4 {
+  color: #ffd055;
+}
+#expertise h2 {
+  color: white;
+}
+#expertise .EDT1 {
+  position: relative;
+  color: white;
+}
+#expertise .EDT1::after {
+  position: absolute;
+  top: 0;
+  right: 0;
+  content: "90%";
+  color: white;
+}
+#expertise .EDT2 {
+  position: relative;
+  color: white;
+}
+#expertise .EDT2::after {
+  position: absolute;
+  top: 0;
+  right: 0;
+  content: "70%";
+  color: white;
+}
+#expertise .EDT3 {
+  position: relative;
+  color: white;
+}
+#expertise .EDT3::after {
+  position: absolute;
+  top: 0;
+  right: 0;
+  content: "50%";
+  color: white;
+}
+#expertise .EDT4 {
+  position: relative;
+  color: white;
+}
+#expertise .EDT4::after {
+  position: absolute;
+  top: 0;
+  right: 0;
+  content: "85%";
+  color: white;
+}
+
+#my-services1 h4 {
+  color: #ffd055;
+}
+#my-services1 h2 {
+  color: white;
+}
+#my-services1 #my-services2 .my-services {
+  background-color: rgb(20, 24, 134);
+  color: white;
+}
+#my-services1 #my-services2 .my-services h5,
+#my-services1 #my-services2 .my-services small {
+  color: #ffd055;
+}
+#my-services1 #my-services2 svg {
+  width: 50%;
+  height: 50%;
+}
+
+#carouselExampleCaptions h4 {
+  color: #ffd055;
+}
+#carouselExampleCaptions h2 {
+  color: white;
+}
+
+#skills h4 {
+  color: #ffd055;
+}
+#skills h2 {
+  color: white;
+}
+#skills img {
+  width: 100%;
+  height: 80%;
+}
+#skills p {
+  color: white;
+}
+
+#footer h4 {
+  color: #ffd055;
+}
+#footer h2 {
+  color: white;
+}
+#footer label {
+  color: white;
+}/*# sourceMappingURL=style.css.map */
